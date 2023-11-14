@@ -5,7 +5,7 @@ int f[siz];
 int fac(int n)
 {
     if(n==0 ||n==1)
-        return n;
+        return 1;
     if(f[n]!=0)
     {
         return f[n];
